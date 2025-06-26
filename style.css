@@ -10,21 +10,24 @@ a {
     color: white;
 }
 
-li {
+a:hover {
+    color: aqua;
+}
+
+nav {
+    /* align-content: center; */
+    padding: 16px;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: brown;
+    text-align: left;
+}
+
+nav a {
     font-size: large;
     display: inline;
     padding: 8px;
     border-right:1px solid lightgray;
-}
-
-ul {
-    align-content: center;
-    padding: 16px;
-    border-radius: 8px;
-    background-color: brown;
-}
-
-ul a {
     text-decoration: none;
 }
 
@@ -34,13 +37,27 @@ div {
     width: 50%;
     border: 3px solid lightyellow;
     border-radius: 10px;
-    text-align: center;
+}
+
+.div_profilepic {
+    width: 600px;
+    height: 200px;
+}
+
+.div_profilepic:hover {
+    width: 150px;
 }
 
 .title {
-    float: left;
     font-weight: bold;
-    font-size: larger;
+    font-size: x-large;
+    border: 2px solid white;
+    border-radius: 32px;
+}
+
+.title:hover {
+    background-color: lightsalmon;
+    border: 2px solid aqua;
 }
 
 .profilepic {
