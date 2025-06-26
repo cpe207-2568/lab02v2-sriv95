@@ -39,12 +39,12 @@ div {
     border-radius: 10px;
 }
 
-.div_profilepic {
+.divprofilepic {
     width: 600px;
     height: 200px;
 }
 
-.div_profilepic:hover {
+.divprofilepic:hover {
     width: 150px;
 }
 
