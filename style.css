@@ -8,6 +8,7 @@ body {
 
 a {
     color: white;
+    transition: color 0.3s ease;
 }
 
 a:hover {
@@ -42,6 +43,7 @@ div {
 .divprofilepic {
     width: 600px;
     height: 200px;
+    transition: width 0.3s ease;
 }
 
 .divprofilepic:hover {
@@ -53,6 +55,7 @@ div {
     font-size: x-large;
     border: 2px solid white;
     border-radius: 32px;
+    transition: background-color 0.3s ease, border 0.3s ease;
 }
 
 .title:hover {
